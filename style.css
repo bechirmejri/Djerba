@@ -204,7 +204,7 @@
   padding: 20px;
   background-color: #f1f1f1;
   border-radius: 5px;
-  background-color:gray ;
+  background-color:rgb(114, 17, 17) ;
   box-shadow: 5px 5px 10px #888888;
 }
 .contact-details > div:hover{
@@ -213,8 +213,10 @@
 
 .reservation-table {
 
-  max-width: 1000px;
+  max-width: 1200px;
+  height: 80px;
   margin: 80px auto;
+
 }
 h2{
   margin-top: 40px;
@@ -223,6 +225,7 @@ h2{
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  box-shadow: 5px 5px 10px #888888;
 }
 
 th, td {
@@ -367,9 +370,9 @@ button {
  
 }
 .Nächste-seite1 :hover{
-  transform: scale(1.4);
+  transform: scale(3.5);
 }
-.Nächste-seite1 a{
+span a{
   color: black;
   text-decoration: none;
 }

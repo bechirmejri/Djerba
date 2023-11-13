@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af1d6de091.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="body2">
+    <header class="header1">
+        <h1>Kontaktiere sie uns</h1>
+    </header>
+    <section class="contact-details">
+        <div class="address">
+            <h2>Unsere Adresse</h2>
+            <p>123 Urlaubsstraße<br>
+            Hamburg, 22099<br>
+            Deutschland</p>
+        </div>
+        <div class="phone">
+            <h2>Telefonnummer</h2>
+            <p>+123 456 7890</p>
+        </div>
+        <div class="email">
+            <h2>E-Mail</h2>
+            <p>Hamburg@urlaubswebsite.com</p>
+        </div>
+        
+    </section>
+    <section class="reservation-table">
+        <h2> Sie erreichen uns von : Montag bis Freitag</h2>
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th>Zeit</th>
+                    <th>Montag</th>
+                    <th>Dienstag</th>
+                    <th>Mittwoch</th>
+                    <th>Donnerstag</th>
+                    <th>Freitag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 - 18:00</td>
+                    <td class="available">Verfügbar</td>
+                    <td class="available">Verfügbar</td>
+                    <td class="available">Verfügbar</td>
+                    <td class="available">Verfügbar</td>
+                    <td class="unavailable">Bis 12 Uhr</td>
+                </tr>
+               
+            </tbody>
+           
+        </table>
+
+        <h2>Hier ist Unsere Formular :</h2>
+    </section>
+    <!--formular für reservation-->
+    <section class="reservation-form">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefonnummer:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="check-in">Check-in Datum:</label>
+                <input type="date" id="check-in" name="check-in" required>
+            </div>
+
+            <div class="form-group">
+                <label for="check-out">Check-out Datum:</label>
+                <input type="date" id="check-out" name="check-out" required>
+            </div>
+
+            <div class="form-group">
+                <label for="adults">Erwachsene:</label>
+                <input type="number" id="adults" name="adults" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="children">Kinder:</label>
+                <input type="number" id="children" name="children" min="0" required>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Zusätzliche Kommentare:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+
+            <button class="btn-formular" type="submit">Reservieren</button>
+        </form>
+      
+    </section>
+    
+       <span class="Nächste-seite"><a href="./index.html"> ⏪Hauptseite </a></span> 
+   
+  
+        <footer class="footer-kontakt">
+        <p>&copy; 2023 Hamburg Reisen</p>
+        <p><a href="#">Impressum</a> &<a href="#">Datenschutz</a></p>
+        </footer>
+
+    
+    
+</body>
+</html>

@@ -15,8 +15,7 @@
       height: 100vh;
       margin: 0;
       padding: 0;
-      animation: backgroundTransition 20s infinite;
-  }
+      animation: backgroundTransition 20s infinite;}
   .body2 {
     
     height: 1400px;
@@ -46,9 +45,9 @@
     margin-top: 50px;
   }
   .first-letter{
+
      font-size: 1.6em; 
-      color: blue;
-      margin-top: 20px;
+     margin-top: 20px;
     }
     .Nächste-seite{
      display: flex;
@@ -149,7 +148,7 @@
   }
   
   .icon a i:hover{
-    transform: scale(1.4);
+    transform: scale(2.2);
   }
 
   .content {
@@ -163,10 +162,10 @@
     text-align: center; 
     position: fixed;
     bottom: 0;
-    width: 100%; 
+    max-width: 100%; 
     position: fixed;
-    
-  }
+   }
+
   
 /* style für die html kontakt  */
 
@@ -224,7 +223,7 @@ h2{
   margin-top: 40px;
 }
 .table1{
-  width: 100%;
+  width:100%;
   border-collapse: collapse;
   margin-top: 20px;
   box-shadow: 5px 5px 10px #888888;
@@ -325,7 +324,10 @@ button {
   justify-content: center;
   align-items: center;
   object-fit: cover;
-  background-color: #abc3d3;
+  background-color: #9cbdd3;
+}
+.body2{
+  background-color: rgb(235, 229, 229);
 }
 
 .container12 {
@@ -348,7 +350,7 @@ button {
   
 }
 .box img:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .box p {

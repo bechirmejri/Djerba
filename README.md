@@ -21,4 +21,4 @@ Klone das Repository: git clone git@github.com:bechirmejri/Djerba.git
 Öffne die HTML-Seiten in einem Webbrowser deiner Wahl.
 
 Lizenz:
-Dieses Projekt ist zu seit Ohne lizenz.
+Dieses Projekt ist Zurzeit Ohne lizenz.

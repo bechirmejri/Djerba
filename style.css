@@ -340,7 +340,7 @@ button {
 
 .box {
  
-  background-color: #3498dbcb;
+  background-color: #3498dbb2;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -355,12 +355,14 @@ button {
   transform: scale(1.2);
 }
 
-.box p {
+.box p{
   margin-bottom: 40px;
-  color: black;
+  color:white;
   margin-top: 20px;
 }
-
+.box p .strong {
+  color: black;
+}
 .box img {
  
   justify-content: center;

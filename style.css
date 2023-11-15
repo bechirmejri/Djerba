@@ -25,6 +25,9 @@
    
   }
 
+  /* responsives Webdesign*/
+ 
+
   /* style für Header*/
 
   .container {
@@ -192,10 +195,11 @@
   margin-bottom: 250px;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 1200px;
+  max-width: 80%;
   margin: 80px auto;
-  padding: 20px;
+  padding: 30px;
   background-color: #ebeeeb;
+  border-radius: 15px;
   color: white;
   box-shadow: 5px 5px 10px blue;
   animation: backgroundAnimation 20s infinite;
@@ -203,10 +207,10 @@
 
 .contact-details > div {
   flex: 1;
-  margin: 10px;
+  margin: 30px;
   padding: 20px;
   background-color: #f1f1f1;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color:rgb(114, 17, 17) ;
   box-shadow: 5px 5px 10px white;
 }
@@ -216,24 +220,29 @@
 
 .reservation-table {
 
-  max-width: 1200px;
+  max-width: 75%;
   height: 80px;
   margin: 80px auto;
+  
 
 }
+
 h2{
   margin-top: 40px;
 }
 .table1{
   width:100%;
+  height: auto;
   border-collapse: collapse;
   margin-top: 20px;
   box-shadow: 5px 5px 10px #888888;
+ 
 }
 
 th, td {
   border: 1px solid #ddd;
   padding: 10px;
+   border-radius: 15px;
   text-align: center;
 }
 

@@ -21,7 +21,9 @@
     height: 1400px;
   }
 
-  
+  .body1{
+   
+  }
 
   /* style für Header*/
 
@@ -320,9 +322,8 @@ button {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ justify-content: center;
+  align-items: flex-start;
   object-fit: cover;
   background-color: #9cbdd3;
 }
@@ -347,6 +348,7 @@ button {
   box-sizing: border-box;
   border-radius: 8px;
   box-shadow: 10px 8px 15px #888888;
+  margin-top: -400px;
   
 }
 .box img:hover{
@@ -356,13 +358,19 @@ button {
 .box p {
   margin-bottom: 40px;
   color: black;
+  margin-top: 20px;
 }
 
 .box img {
+ 
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 6px;
+  margin-bottom: 20px;
   cursor: pointer;
+  box-shadow: 10px 8px 15px white;
 }
 .Nächste-seite1{
   display: flex;
@@ -406,4 +414,35 @@ video {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+   
 }
+.viedeo-djerba iframe {
+  box-shadow: 15px 15px 30px blue;
+}
+.header1-0{
+
+   
+    animation: backgroundAnimation2 20s infinite;
+}
+@keyframes backgroundAnimation2 {
+  0% {
+    background-color: #FF5733; /* Farbe 1 */
+  }
+  16.666% {
+    background-color: #FFC300; /* Farbe 2 */
+  }
+  33.332% {
+    background-color: #FF33E1; /* Farbe 3 */
+  }
+  49.998% {
+    background-color: #FFC300;; /* Farbe 4 */
+  }
+  66.664% {
+    background-color: #335BFF; /* Farbe 5 */
+  }
+  83.33% {
+    background-color: #FF335B; /* Farbe 6 */
+  }
+  100% {
+    background-color: #FF5733; /* Zurück zu Farbe 1 */
+  }}

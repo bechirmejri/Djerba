@@ -36,7 +36,6 @@
     flex: 0 0 50%; /* Jedes Element nimmt 50% der Breite ein */
     box-sizing: border-box;
     padding: 10px;
-    overflow: hidden; /* Versteckt den überlaufenden Text */
     text-overflow: ellipsis;
    }
  }

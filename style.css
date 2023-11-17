@@ -94,7 +94,10 @@
    .ul-nav li:nth-child(8) {
     animation-delay: 0.8s;}
  /* style für Header*/
-
+ .navbar-nav li a:hover {
+  transform: scale(1.2);
+  background-color: rgba(245, 245, 245, 0.658);
+}
   .container-10{
     max-width: 130rem;
     margin: 50px auto;
@@ -254,13 +257,13 @@
 .contact-details {
   display: flex;
   margin-bottom: 50px;
- margin-top: 150px;
- margin-left: 190px;
+  margin-top: 150px;
+  margin-left: 190px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: 80%;
-  padding: 30px;
+  padding: 20px;
   background-color: #ebeeeb;
   border-radius: 15px;
   color: white;

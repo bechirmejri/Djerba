@@ -24,33 +24,11 @@
   /* responsives  für kleine Handys*/
   
   @media only screen and (max-width: 311px) {
-    body,.body1,.body2 {
-        font-size: 12px;
-    }
-    p{
-      font-size: small;
-    }
-    video {
-      max-width: 100%;
-      height: auto;
-}
-img,.header1,.header1-0,section,div,.tabel,h1,h2,ul,li,a {
-  max-width: 100%;
-  height: auto;
-}
-h2{
-  font-size: small;
-}
-div,section,span,video,.container,.container-10,.container12,header,.header1,.contact-details,ul,.table1{
-  width: 100%;
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
+   
 
 }
 
-}
+
 
   /* style für Header*/
 

@@ -1,0 +1,15 @@
+{
+  "name": "projekt-4-djerba",
+  "version": "1.0.0",
+  "description": "Projekt Djerba - Reiseportal  Dieses Projekt ist ein einfaches Reiseportal, das sich auf die wunderschöne Insel Djerba (Tunesien) konzentriert. Das Portal besteht aus vier HTML-Seiten und einer CSS-Datei, um die Darstellung zu verbessern. Inhaltsverzeichnis Dateistruktur Funktionalitäten Verwendung Anpassungen Beitragende Dateistruktur index.html: Startseite des Reiseportals mit allgemeinen Informationen über Djerba. Dienstleistung.html: Seite mit Informationen zu Unterkünften auf der Insel. Kontakt.html: Seite, die kontakt formular sowie reservation für Djerba . styles.css: CSS-Datei für das Styling der HTML-Seiten. Funktionalitäten:keine Das Reiseportal bietet grundlegende Informationen über die Insel Djerba, einschließlich Unterkünften und Aktivitäten. Es wurde entwickelt, um benutzerfreundlich und leicht verständlich zu sein.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
